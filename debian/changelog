@@ -1,0 +1,38 @@
+node-typedarray (0.0.6-2) unstable; urgency=medium
+
+  * Team upload
+  * Acknowledge NMU
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Update Vcs-* headers to use salsa repository.
+  * Remove obsolete field Name from debian/upstream/metadata (already
+    present in machine-readable debian/copyright).
+  * Apply multi-arch hints.
+    + node-typedarray: Add Multi-Arch: foreign.
+
+  [ Bastien Roucariès ]
+  * Move to section javascript
+  * Drop nodejs depends
+  * Bump standard version
+  * Move to dh-sequence-nodejs
+  * Bug fix: "autopkgtest must be marked superficial", thanks to Sudip
+    Mukherjee (Closes: #974323). Use tap no more superficial test.
+
+ -- Bastien Roucariès <rouca@debian.org>  Wed, 29 Sep 2021 20:57:44 +0000
+
+node-typedarray (0.0.6-1.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 01:10:42 +0100
+
+node-typedarray (0.0.6-1) unstable; urgency=low
+
+  * Initial release (Closes: #796359)
+
+ -- Ross Gammon <rossgammon@mail.dk>  Sun, 06 Sep 2015 22:57:37 +0200

@@ -1,0 +1,27 @@
+Source: node-typedarray
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Ross Gammon <rossgammon@mail.dk>
+Build-Depends: debhelper-compat (= 13),
+               dh-sequence-nodejs,
+               node-tap <!nocheck>,
+               node-tape <!nocheck>
+Testsuite: autopkgtest-pkg-nodejs
+Standards-Version: 4.6.0
+Homepage: https://github.com/substack/typedarray
+Vcs-Git: https://salsa.debian.org/js-team/node-typedarray.git
+Vcs-Browser: https://salsa.debian.org/js-team/node-typedarray
+
+Package: node-typedarray
+Architecture: all
+Depends: ${misc:Depends},
+Multi-Arch: foreign
+Description: TypedArray polyfill for old browsers
+ Node-typedarray is a fork of the inexorabletash version of polyfill.
+ .
+ A polyfill is a shim or collection of shims, and a shim lets you write the
+ same code across all browsers by implementing a new API in downlevel
+ browsers.
+ .
+ Node.js is an event-based server-side JavaScript engine.
