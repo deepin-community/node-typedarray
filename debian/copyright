@@ -1,10 +1,10 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: typedarray
-Upstream-Contact: https://github.com/substack/typedarray/issues
-Source: https://github.com/substack/typedarray
+Upstream-Contact: https://github.com/es-shims/typedarray/issues
+Source: https://github.com/es-shims/typedarray
 
 Files: *
-Copyright: 2015 James Halliday <mail@substack.net> (http://substack.net)
+Copyright: 2015 James Halliday <mail@substack.net> (http://es-shims.net)
 License: Expat
 
 Files: debian/*
