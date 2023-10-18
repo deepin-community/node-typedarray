@@ -1,3 +1,21 @@
+node-typedarray (0.0.7-1) unstable; urgency=medium
+
+  * Team upload
+  * Update standards version to 4.6.1, no changes needed.
+  * Update homepage
+  * Fix debian/watch
+  * New upstream version 0.0.7
+
+ -- Yadd <yadd@debian.org>  Thu, 10 Nov 2022 18:05:02 +0100
+
+node-typedarray (0.0.6-3) unstable; urgency=medium
+
+  * Team upload
+  * Add "Rules-Requires-Root: no"
+  * Fix test for tap >= 15 (--no-cov) (Closes: #1009485)
+
+ -- Yadd <yadd@debian.org>  Wed, 13 Apr 2022 16:35:29 +0200
+
 node-typedarray (0.0.6-2) unstable; urgency=medium
 
   * Team upload
